@@ -73,11 +73,21 @@
                     bindings = <
                         &trans      &trans      &trans      &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans 
                         &trans      &kp LGUI    &kp LALT    &kp LCTRL       &kp LSHIFT      &trans          &kp CAPS        &kp LEFT        &kp UP          &kp DOWN        &kp RIGHT       &trans
-                        &trans      &trans      &kp LC(X)   &kp LC(C)       &kp LC(V)       &trans          &kp INS         &kp HOME        &kp PG_UP       &kp PG_DN       &kp END         &trans
+                        &trans      &kp LS(LG(S))      &kp LC(X)   &kp LC(C)       &kp LC(V)       &trans          &kp INS         &kp HOME        &kp PG_UP       &kp PG_DN       &kp END         &trans
                                                             &trans          &trans          &trans          &kp SPACE       &kp RET         &kp ESC
                     >;
             };
 
-            
+            mouse_layer {
+                    label = "MOUSE";
+                    bindings = <
+                        &trans      &trans      &trans      &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans 
+                        &trans      &kp LGUI    &kp LALT    &kp LCTRL       &kp LSHIFT      &trans          &trans          &trans          &trans          &trans          &trans          &trans
+                        &trans      &trans      &trans      &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
+                                                            &trans          &trans          &trans          &trans          &trans          &trans
+                    >;
+            };
+
+           
     };
 };
