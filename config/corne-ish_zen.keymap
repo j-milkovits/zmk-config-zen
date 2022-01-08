@@ -68,6 +68,16 @@
                     >;
             };
 
-            
+            nav_layer {
+                    label = "NAV";
+                    bindings = <
+                        &trans      &trans      &trans      &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans 
+                        &trans      &kp LGUI    &kp LALT    &kp LCTRL       &kp LSHIFT      &trans          &kc CAPS        &kp LEFT        &kp UP          &kp DOWN        &kp RIGHT       &trans
+                        &trans      &trans      &kp LC(X)   &kp LC(C)       &kp LC(V)       &trans          &kc INS         &KC HOME        &kp PG_UP       &kp PG_DN       &kp END          &trans
+                                                            &trans          &trans          &trans          &kp SPACE       &kp RET         &kp ESC
+                    >;
+            };
+
+
     };
 };
