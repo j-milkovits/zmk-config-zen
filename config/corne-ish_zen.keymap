@@ -58,6 +58,7 @@
             &none       &hl LGUI A  &hl LALT S  &hl LCTRL D     &hm LSHIFT F    &kp G            &kp H          &hm RSHIFT J    &hm RCTRL K     &hm LALT L  &hm RGUI APOS   &none 
             &none       &kp Z       &kp X       &kp C           &kp V           &kp B            &kp N          &kp M           &kp COMMA       &kp DOT     &kp FSLH        &none
                                                 &lm MEDIA DEL   &lm NAV BSPC    &lm MOUSE TAB    &lm SYM SPACE  &lm NUM RET     &lm FN ESC
+        >;
     };
   };
 };
